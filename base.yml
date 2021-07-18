@@ -11,6 +11,8 @@ spring:
     password: abc123456
     hikari:
       max-lifetime: 1800000
+  rabbitmq:
+    host: 192.168.167.130
   jpa:
     database: mysql
     show-sql: true
