@@ -2,7 +2,7 @@ server:
   port: 8761
 eureka:
   server:
-    enable-self-preservation: false # ¹Ø±Õ×ÔÎÒ±£»¤£¨½â¾ö¹Ø±Õ·şÎñ²»ÌŞ³ı£©
+    enable-self-preservation: false # å…³é—­è‡ªæˆ‘ä¿æŠ¤ï¼ˆè§£å†³å…³é—­æœåŠ¡ä¸å‰”é™¤ï¼‰
   client:
     register-with-eureka: false
     fetch-registry: false
