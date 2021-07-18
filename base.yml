@@ -1,5 +1,5 @@
 server:
-  port: 10001
+  port: 9001
 
 spring:
   application:
@@ -10,7 +10,7 @@ spring:
     username: root
     password: abc123456
     hikari:
-      max-lifetime: 20000
+      max-lifetime: 1800000
   jpa:
     database: mysql
     show-sql: true
